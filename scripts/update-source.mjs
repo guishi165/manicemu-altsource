@@ -15,7 +15,7 @@ const SOURCE_META = {
   identifier:  "com.manicemu.altsource",
   subtitle:    "All-in-one retro game emulator for iOS",
   description: "Automatically updated AltStore/SideStore source for ManicEMU from github.com/Manic-EMU/ManicEMU.",
-  iconURL:     "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a01.jpg",
+  iconURL:     "https://avatars.githubusercontent.com/u/217220823",
   headerURL:   "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a02.jpg",
   website:     "https://github.com/Manic-EMU/ManicEMU",
   tintColor:   "#7B5CFF",
@@ -43,7 +43,7 @@ const APP_META = {
     "• Google Drive, Dropbox, OneDrive, WebDAV, SMB support\n" +
     "• Native Joy-Con, DualShock, Xbox controller support\n" +
     "• AirPlay mirroring",
-  iconURL:   "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/14/87/08148775-75af-5671-2321-6d543c01b8a7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp",
+  iconURL:   "https://avatars.githubusercontent.com/u/217220823",
   tintColor: "#7B5CFF",
   screenshotURLs: [
     "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a01.jpg",
