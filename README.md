@@ -9,10 +9,8 @@ A GitHub Actions workflow runs **every hour**, checks for new releases, and comm
 ## Add to AltStore / SideStore
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/source.json
+https://raw.githubusercontent.com/guishi165/manicemu-altsource/main/source.json
 ```
-
-> Replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your actual GitHub username and repo name.
 
 ---
 
