@@ -25,17 +25,6 @@
         "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a03.jpg",
         "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a04.jpg"
       ],
-      "versions": [
-        {
-          "version": "1.9.0",
-          "date": "2026-03-25",
-          "localizedDescription": "• Added JAVA (J2ME) support\n• Added DOOM support (powered by prboom)\n• Added XeniOS Link\n• Added skin button sound effects support\n• Fixed multiple issues caused by incorrect file paths on macOS\n• Fixed an issue where multi-file ROMs were not uploaded during iCloud sync\n• Fixed an issue where multi-line cheat codes did not work\n• Fixed incorrect C button mapping for MCD and 32X\n• Fixed an issue where UI could not be controlled via external controllers on iOS 26.3.1\n• Various other fixes and improvements",
-          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.0/ManicEMU.ipa",
-          "size": 0,
-          "minOSVersion": "15.0",
-          "maxOSVersion": "99.9"
-        }
-      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
@@ -44,7 +33,90 @@
           "NSPhotoLibraryUsageDescription": "Used to import game ROMs and media.",
           "NSCameraUsageDescription": "Used for augmented reality features."
         }
-      }
+      },
+      "versions": [
+        {
+          "version": "1.9.0",
+          "date": "2026-03-25",
+          "localizedDescription": "• Added JAVA (J2ME) support\n> Includes two cores: J2meJS (based on Mozilla’s PluotSorbet) and freej2me (based on CheerpJ)\n> J2meJS supports fast-forward\n> J2meJS runs natively, offering improved performance and compatibility\n> J2meJS provides limited network access\n> J2meJS includes partial M3G support\n> freej2me relies on CheerpJ (requires an internet connection)\n> Automatically detects JAR resolution, with manual override available in J2ME settings\n> Support touchscreen version JAR apps\n> Screen scaling options available (stretch or fit)\n        \n• Added MS-DOS support (powered by DOSBox-Pure)\n> Built-in gamepad and keyboard skins\n> Game screen can be used as a touchpad for mouse input\n> Added “Insert Disc” option for multi-disc workflows\n> Full DOSBox-Pure configuration available in bot",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.0/ManicEMU.v1.9.0.SideloadJIT.ipa",
+          "size": 219481479,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
+          "version": "1.8.3",
+          "date": "2026-02-14",
+          "localizedDescription": "• Added PSP online functionality (configure in Settings → Online Game Settings → PSP Networking).\n• In full-screen mode, all buttons will be hidden. Tap the screen to display the menu button.\n• Fixed crashes on macOS.\n• Fixed crashes in some games when camera or microphone permissions were not granted.\n• Added Safe Mode for launching games. Long-press the Start button on the game setup page to activate.\n• Fixed an issue where MCD (JGenesis core) failed to load large .chd files.\n• Fixed excessive error messages in DSi Home Menu.\n• Added a ClownMDEmu core switching option for MCD (experimental).\n• Fixed touchscreen offset issues in NDS (DeSmuME).\n• Removed system registration for potentially confusing ROM file formats (.md, .zip, etc.) to avoid disrupting users’ normal workflows.\n• Implement",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.3/ManicEMU.v1.8.3.SideloadJIT.ipa",
+          "size": 199035201,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
+          "version": "1.8.2",
+          "date": "2026-01-30",
+          "localizedDescription": "• Added support for Atari 2600, 5200, 7800, Jaguar, and Lynx platforms.\n• Re-added CD and 32X platform support in the App Store version using the JGenesis core. The SideStore version supports core switching.\n• Added the DeSmuME core for NDS games, with support for custom resolution settings.\n• Added real microphone support for NDS (DeSmuME).\n• Redrew the default NDS skin with a more modern design and improved control feel.\n• Optimized microphone drivers for Nintendo 3DS (Citra).\n• Added cheat code support to the Nintendo 3DS (Azahar) core.\n• Fixed and optimized shader issues for Nintendo 3DS (Azahar) and NDS.\n• Added microphone support to the Nintendo 3DS (Azahar) core.\n• Added Action Replay (cheat) support to the Nintendo 3DS (Azahar) core.\n• Nintendo 3DS now supports importing cheat code",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.2/ManicEMU.v1.8.2.SideloadJIT.ipa",
+          "size": 198849250,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
+          "version": "1.8.1",
+          "date": "2025-12-18",
+          "localizedDescription": "Changes:\n• 3DS (azahar core only) now supports enabling JIT on iOS 26 via [StikDebug](https://github.com/StephenDev0/StikDebug).\n• 3DS (azahar) now supports camera functionality.\n• 3DS (azahar) now supports amiibo loading.\n• 3DS (azahar) now supports keyboard pop-up.\n• 3DS (azahar) now supports the accelerometer.\n• GB, GBC, and GBA (using the mGBA core) now support camera functionality.(Now you can snap your own retro photos with the Game Boy Camera. GB/GBC/GBA save location: Manic EMU - 3DS - sdmc - saves - gb. Use https://game-tools-collection.com/game-boy-camera-gb/save-editor to extract photos.)\n• Removed CIFilter support entirely, shifting fully to Shaders.\n• Shaders now support downloading, editing, and customization.\n• Added new app icons.\n• Built-in PlayCase skin.\n• Added support f",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.1/ManicEMU.v1.8.1.SideloadJIT.ipa",
+          "size": 227809413,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
+          "version": "1.8.0",
+          "date": "2025-11-25",
+          "localizedDescription": "• Added Arcade platform support. The App Store version includes the MAME core, while the Sideload version additionally supports FBNeo with full RetroAchievements integration.\n• Introduced the new Azahar core for the 3DS platform. Long-press a game cover to switch cores. This core restores missing features such as fast-forward, filters, and AirPlay support.\n• Updated the 3DS skin with an improved visual layout and refined button placement.\n• Added a new Manufacturer category to the Game Library (enable it in Theme Settings).\n• Game List now supports collapsible sections and item count display.\n• FLEX skin now supports aspect-ratio adjustment, allowing freeform stretching and perfect compatibility with Arcade Tate (vertical) mode.\n• Improved FLEX skin settings, fixing scaling issues and edge",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.0/ManicEMU.v1.8.0.SideloadJIT.ipa",
+          "size": 264477714,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
+          "version": "1.7.3",
+          "date": "2025-10-28",
+          "localizedDescription": "• Added TriggerPro — a full-featured customizable button system\n• Redesigned default skins for MS and SG-1000 platforms\n• Added support for multi-disc .cdi format on Dreamcast\n• Added support for generating .m3u files from .cdi ROMs in the MultiDisc Helper\n• Separated FDS and NES platforms for clearer distinction\n• Fixed random in-game stuttering issues\n• Fixed issue where the software keyboard could appear unexpectedly when using a Bluetooth keyboard\n• Improved accessibility features for visually impaired players\n• Other bug fixes and performance improvements",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.3/ManicEMU.v1.7.3.SideloadJIT.ipa",
+          "size": 137310172,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
+          "version": "1.7.2",
+          "date": "2025-10-16",
+          "localizedDescription": "Changelog:\n• Adapted for iOS 26 Liquid Glass\n• Added Light Mode appearance\n• Improved overall UI visual experience\n• Redesigned default skin for GB\n• Redesigned default skin for GG\n• Added microphone simulation for NES — use “Simulate Blowing” or press L3 on your controller\n• Added NES palette support with the option to upload custom .pal files\n• Added Famicom Disk System (FDS) support for NES — use “Swap Disc” or press L1 on your controller to flip the disk\n• Added game manual import feature\n• Added support for uploading custom background images in the game library\n• Added option to clean up unsupported skins\n• Fixed issue where Game Mode couldn’t be enabled properly\n• Fixed incorrect cover aspect ratios in some game library items\n• Fixed incorrect default skin in N64 landscape mode on iP",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.2/ManicEMU.v1.7.2.SideloadJIT.ipa",
+          "size": 129685514,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
+          "version": "1.7.1",
+          "date": "2025-09-28",
+          "localizedDescription": "Changelog:\n• Upgraded NDS core with RetroAchievements support (Important: this update breaks compatibility with old save states. Please convert them to in-game saves before updating to v1.7.1 to avoid losing progress)\n• Added top/bottom screen layout configuration for NDS when using AirPlay\n• Added touch-screen cursor control for NDS when connected via AirPlay\n• Added external controller support for NDS cursor control (right stick moves cursor, R3 for click)\n• Added microphone blowing simulation feature for NDS\n• Added game screen scaling options when using AirPlay output\n• Added global toggle for RetroAchievements\n• Added NAND import support for 3DS, making it easier to install the Home Menu and restore missing system files\n• Added new rendering mode options for PSP\n• Added texture replac",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.1/ManicEMU.v1.7.1.SideloadJIT.ipa",
+          "size": 123105740,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
+          "version": "1.7.0",
+          "date": "2025-09-18",
+          "localizedDescription": "Adventurers, thanks for waiting! This update took longer than usual, but it’s absolutely worth it—Manic EMU now supports RetroAchievements. Huge thanks to the RA team for their thorough review work, making hardcore achievements possible!\nWe’ve also added Dreamcast support, with special thanks to @JoeMatt of Provenance for building the JITLess core, and to @flyinghead, the original core developer.\nAnd of course, big gratitude to all emulator core developers and our early-access subscribers who tested and shared feedback—Manic EMU wouldn’t be the same without you!\n\nImportant:\nTo support RetroAchievements, several cores have been upgraded (GB, GBC, GBA, SNES, MD, MS, GG, SG-1000). As a result, old save states created with previous versions will no longer be compatible. Please make sure to con",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.0/ManicEMU.v1.7.0.SideloadJIT.ipa",
+          "size": 126668215,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        }
+      ]
     }
   ],
   "news": []
