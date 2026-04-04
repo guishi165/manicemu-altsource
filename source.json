@@ -1,0 +1,51 @@
+{
+  "name": "ManicEMU",
+  "identifier": "com.manicemu.altsource",
+  "subtitle": "All-in-one retro game emulator for iOS",
+  "description": "Automatically updated AltStore/SideStore source for ManicEMU from github.com/Manic-EMU/ManicEMU.",
+  "iconURL": "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a01.jpg",
+  "headerURL": "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a02.jpg",
+  "website": "https://github.com/Manic-EMU/ManicEMU",
+  "tintColor": "#7B5CFF",
+  "featuredApps": [
+    "com.aoshuang.manicemu"
+  ],
+  "apps": [
+    {
+      "name": "ManicEMU",
+      "bundleIdentifier": "com.aoshuang.manicemu",
+      "developerName": "Manic-EMU",
+      "subtitle": "All-in-one retro game emulator",
+      "localizedDescription": "Manic EMU is an all-in-one retro game emulator for iOS with a clean UI and buttery-smooth gameplay.\n\nSupported platforms:\nNintendo: 3DS, N64, NDS, GBA, GBC, GB, NES, FDS, SNES, Virtual Boy, Pokémon Mini\nSony: PS1, PSP\nSega: Dreamcast, Saturn, Master System, Game Gear, SG-1000, 32X, Mega-CD, Genesis/MegaDrive\nOther: DOOM, J2ME (Java), and more coming soon!\n\nKey Features:\n• Unlimited saves: manual & 50 auto-save slots\n• 5x speed control\n• Cheat codes library\n• Retro filters & custom skins\n• RetroAchievements integration with Hardcore Mode\n• iCloud sync across devices\n• Google Drive, Dropbox, OneDrive, WebDAV, SMB support\n• Native Joy-Con, DualShock, Xbox controller support\n• AirPlay mirroring",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/14/87/08148775-75af-5671-2321-6d543c01b8a7/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp",
+      "tintColor": "#7B5CFF",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a01.jpg",
+        "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a02.jpg",
+        "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a03.jpg",
+        "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/images_manicemu_ver4_a04.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.9.0",
+          "date": "2026-03-25",
+          "localizedDescription": "• Added JAVA (J2ME) support\n• Added DOOM support (powered by prboom)\n• Added XeniOS Link\n• Added skin button sound effects support\n• Fixed multiple issues caused by incorrect file paths on macOS\n• Fixed an issue where multi-file ROMs were not uploaded during iCloud sync\n• Fixed an issue where multi-line cheat codes did not work\n• Fixed incorrect C button mapping for MCD and 32X\n• Fixed an issue where UI could not be controlled via external controllers on iOS 26.3.1\n• Various other fixes and improvements",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.0/ManicEMU.ipa",
+          "size": 0,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Used for in-game audio recording features.",
+          "NSPhotoLibraryAddUsageDescription": "Used to save screenshots.",
+          "NSPhotoLibraryUsageDescription": "Used to import game ROMs and media.",
+          "NSCameraUsageDescription": "Used for augmented reality features."
+        }
+      }
+    }
+  ],
+  "news": []
+}
