@@ -38,9 +38,9 @@
         {
           "version": "1.9.1",
           "date": "2026-04-15",
-          "localizedDescription": "### JIT (iOS 26 & Earlier)\n\n- Implemented broad JIT support compatible with iOS 26 and earlier versions\n- Integrated support for StikDebug’s universal.js launcher (Special thanks to @Stossy11)\n- Added JIT support for:\n    - 3DS (Citra)\n    - Dreamcast (Flycast)\n    - Nintendo DS (melonDS)\n    - Nintendo 64 (GLideN64 RDP / mupen64plus.next  Special thanks to  @Fareblyat)\n    - DOS (dosbox-pure)\n    - PlayStation 1 (beetle-psx)\n    - Added setting to enable/re-enable JIT directly from the app\n    - Improved JIT handling flow for iOS 26 (automatic redirect to reinitialize when required)\n\n### Core & Emulator Updates\n\n- Updated 3DS (Azahar) to latest upstream\n- Updated PSP (PPSSPP) to latest upstream\n- Added SNES core (snes9x; sideloaded availability)\n- Added PS1 core (PCSX-ReARMed)\n\n### 3DS Im",
+          "localizedDescription": "Heads up: v1.9.1 will corrupt save files in J2ME (J2meJS core), and we’re really sorry about that. As a temporary workaround, we suggest backing up the save file \"XXX.j2mejs.srm\" in the \"Manic EMU - Datas\" folder. We'll look into whether we can recover the save data.\n\n### JIT (iOS 26 & Earlier)\n\n- Implemented broad JIT support compatible with iOS 26 and earlier versions\n- Integrated support for StikDebug’s universal.js launcher (Special thanks to @Stossy11)\n- Added JIT support for:\n    - 3DS (Citra)\n    - Dreamcast (Flycast)\n    - Nintendo DS (melonDS)\n    - Nintendo 64 (GLideN64 RDP / mupen64plus.next  Special thanks to  @Fareblyat)\n    - DOS (dosbox-pure)\n    - PlayStation 1 (beetle-psx)\n    - Added setting to enable/re-enable JIT directly from the app\n    - Improved JIT handling flow fo",
           "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.1/ManicEMU.v1.9.1.SideloadJIT.ipa",
-          "size": 227344432,
+          "size": 227362235,
           "minOSVersion": "15.0",
           "maxOSVersion": "99.9"
         },
