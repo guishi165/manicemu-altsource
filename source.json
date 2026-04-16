@@ -36,6 +36,15 @@
       },
       "versions": [
         {
+          "version": "1.9.2",
+          "date": "2026-04-16",
+          "localizedDescription": "Urgent fix for J2ME (J2meJS) save file loading error\nFixed the issue where Artic Base couldn't select the Australia region\n3DS (Azahar) adds HLE and LLE emulation accuracy options.\nFixed NDS crash when using Flex Skin",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.2/ManicEMU.v1.9.2.SideloadJIT.ipa",
+          "size": 227390683,
+          "minOSVersion": "15.0",
+          "maxOSVersion": "99.9"
+        },
+        {
           "version": "1.9.1",
           "date": "2026-04-15",
           "localizedDescription": "Heads up: v1.9.1 will corrupt save files in J2ME (J2meJS core), and we’re really sorry about that. As a temporary workaround, we suggest backing up the save file \"XXX.j2mejs.srm\" in the \"Manic EMU - Datas\" folder. We'll look into whether we can recover the save data.\n\n### JIT (iOS 26 & Earlier)\n\n- Implemented broad JIT support compatible with iOS 26 and earlier versions\n- Integrated support for StikDebug’s universal.js launcher (Special thanks to @Stossy11)\n- Added JIT support for:\n    - 3DS (Citra)\n    - Dreamcast (Flycast)\n    - Nintendo DS (melonDS)\n    - Nintendo 64 (GLideN64 RDP / mupen64plus.next  Special thanks to  @Fareblyat)\n    - DOS (dosbox-pure)\n    - PlayStation 1 (beetle-psx)\n    - Added setting to enable/re-enable JIT directly from the app\n    - Improved JIT handling flow fo",
@@ -113,15 +122,6 @@
           "localizedDescription": "Changelog:\n• Upgraded NDS core with RetroAchievements support (Important: this update breaks compatibility with old save states. Please convert them to in-game saves before updating to v1.7.1 to avoid losing progress)\n• Added top/bottom screen layout configuration for NDS when using AirPlay\n• Added touch-screen cursor control for NDS when connected via AirPlay\n• Added external controller support for NDS cursor control (right stick moves cursor, R3 for click)\n• Added microphone blowing simulation feature for NDS\n• Added game screen scaling options when using AirPlay output\n• Added global toggle for RetroAchievements\n• Added NAND import support for 3DS, making it easier to install the Home Menu and restore missing system files\n• Added new rendering mode options for PSP\n• Added texture replac",
           "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.1/ManicEMU.v1.7.1.SideloadJIT.ipa",
           "size": 123105740,
-          "minOSVersion": "15.0",
-          "maxOSVersion": "99.9"
-        },
-        {
-          "version": "1.7.0",
-          "date": "2025-09-18",
-          "localizedDescription": "Adventurers, thanks for waiting! This update took longer than usual, but it’s absolutely worth it—Manic EMU now supports RetroAchievements. Huge thanks to the RA team for their thorough review work, making hardcore achievements possible!\nWe’ve also added Dreamcast support, with special thanks to @JoeMatt of Provenance for building the JITLess core, and to @flyinghead, the original core developer.\nAnd of course, big gratitude to all emulator core developers and our early-access subscribers who tested and shared feedback—Manic EMU wouldn’t be the same without you!\n\nImportant:\nTo support RetroAchievements, several cores have been upgraded (GB, GBC, GBA, SNES, MD, MS, GG, SG-1000). As a result, old save states created with previous versions will no longer be compatible. Please make sure to con",
-          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.0/ManicEMU.v1.7.0.SideloadJIT.ipa",
-          "size": 126668215,
           "minOSVersion": "15.0",
           "maxOSVersion": "99.9"
         }
